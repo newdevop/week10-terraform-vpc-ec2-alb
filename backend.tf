@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   backend "s3" {
     bucket = "week10-terraform"
     key = "week10/terraform.tfstate"
@@ -7,3 +7,4 @@ terraform {
     dynamodb_table = "state-lock"
   }
 }
+*/
