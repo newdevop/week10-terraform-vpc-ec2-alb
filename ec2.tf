@@ -1,5 +1,5 @@
 resource "aws_instance" "server1" {
-  ami = "ami-02d7fd1c2af6eead0"
+  ami = "ami-08a0d1e16fc3f61ea"
   instance_type = var.INSTANCE_TYPE
   availability_zone = "${var.REGION}a" 
   subnet_id = aws_subnet.Private1.id
@@ -13,7 +13,7 @@ resource "aws_instance" "server1" {
 }
 
 resource "aws_instance" "server2" {
-  ami = "ami-02d7fd1c2af6eead0"
+  ami = "ami-08a0d1e16fc3f61ea"
   instance_type = "t2.micro"
   availability_zone = "us-east-1b"
   subnet_id = aws_subnet.Private2.id
